@@ -1,0 +1,72 @@
+* {
+  font: "JetBrains Mono Nerd Font 12";
+  text-color: #e0e0ff;
+  background-color: rgba(28, 20, 40, 0.92);
+  border-radius: 12px;
+  padding: 8px;
+  margin: 6px;
+}
+
+window {
+  border: 2px;
+  border-color: #a78bfa;
+  width: 500px;
+  location: center;
+  anchor: center;
+  y-offset: 0;
+  background-color: @background-color;
+  border-radius: 12px;
+}
+
+mainbox {
+  children: [inputbar, listview];
+  border: 0;
+  padding: 10px;
+  spacing: 10px;
+}
+
+inputbar {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background-color: #4c3575;
+  text-color: #ffffff;
+}
+
+listview {
+  lines: 8;
+  columns: 1;
+  spacing: 4px;
+  scrollbar: false;
+  fixed-height: true;
+}
+
+element {
+  border-radius: 8px;
+  /* padding: 6px 10px; */
+  background-color: transparent;
+  text-color: #d0bfff;
+}
+
+element selected {
+  background-color: #a78bfa;
+  text-color: #1e1e2e;
+}
+
+element-text {
+    vertical-align: 0.5;
+    padding: 0.2em 0em;
+}
+
+element-icon {
+  size: 1.4em;
+}
+
+case-indicator {
+    enabled: false;
+    spacing: 0;
+    border: 0;
+    background-color: transparent;
+    width: 0;
+    padding: 0;
+    margin: 0;
+}

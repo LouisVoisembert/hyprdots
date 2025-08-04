@@ -1,0 +1,17 @@
+configuration {
+    show-icons: true;
+    icon-theme: "Papirus";
+    modi: "drun,run";
+    display-drun: "Apps:";
+    drun-display-format: "{icon} {name}";
+    font: "JetBrains Mono 12";
+    lines: 10;
+    columns: 1;
+    fixed-num-lines: true;
+    location: 0;
+    sidebar-mode: false;
+    fullscreen: false;
+    disable-history: false;
+}
+
+@theme "~/.config/rofi/themes/purple_icons.rasi"
