@@ -51,7 +51,8 @@
         "tooltip-format": "{ifname} via {gwaddr}",
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "Disconnected ⚠",
-	"on-click": "alacritty -e nmtui"
+	"on-click": "networkmanager_dmenu -theme ~/.config/rofi/themes/nm-purple.rasi"
+
     },
     "pulseaudio": {
         "format": "{volume}% {icon} {format_source}",
